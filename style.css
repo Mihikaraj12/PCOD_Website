@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #FFE3F4;
+    text-decoration: none;
+}
+.header{
+    height: 60px;
+}
+nav{
+  display: flex;
+}
+.logo{
+  position: absolute;
+  display: inline-block;
+  height: 60px;
+  margin-left: 0px;
+  margin-top: 10px;
+  width: 70px;
+  height: 70px;
+  left: 30px;
+  top: 20px;
+  background: #FFBBE4;
+  border-radius: 50%;
+}
+.sitekanaam h6{
+  position: absolute;
+  width: 115px;
+  height: 33px;
+  left: 146px;
+  top: 54px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 27px;
+  line-height: 33px;
+  letter-spacing: 0.245em;
+  color: #FF6AC3;
+}
+.content{
+  padding: 50px;
+  gap: 200px;
+  margin-top: 2px;
+  display: inline-block;
+  height: 100px;
+  margin-left: 600px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.content> a{
+  color: #FF6AC3;
+  font-size: 5px;
+  text-decoration: none;
+  margin: 0px 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
+} 
+.content>a:hover{
+  text-decoration: underline;
+  color: pink;
+} 
+section{
+  padding: 20px;
+}
+.sectionkiclass{
+  display: flex;
+}
+.sectionkiclass .section2 h1{
+  position: absolute;
+  width: 624px;
+  height: 284px;
+  left: 58px;
+  top: 215px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 121px;
+  color: #FF6AC3;
+}
+.sectionkiclass .section2 p{
+  position: absolute;
+  width: 511px;
+  height: 93px;
+  left: 58px;
+  top: 459px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+.buttons{
+  position: absolute;
+  width: 95px;
+  height: 30px;
+  left: 55px;
+  top: 525px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: white;
+  background-color: #FFBBE4;
+  text-align: center;
+  transition: 0.2s ease;
+}
+.buttons:hover{
+  color: pink;
+  background-color: white;
+  transform: scale(1.1);
+}
+.sectionkiclass .section2 img{
+  position: absolute;
+  width: 350px;
+  height: 450px;
+  left: 820px;
+  top: 180px;
+}
